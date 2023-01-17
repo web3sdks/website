@@ -8,12 +8,7 @@ import {
   useQuery,
   useQueryClient,
 } from "@tanstack/react-query";
-import {
-  useAddress,
-  useChainId,
-  useSDK,
-  useSDKChainId,
-} from "@web3sdks/react";
+import { useAddress, useChainId, useSDK, useSDKChainId } from "@web3sdks/react";
 import { FeatureWithEnabled } from "@web3sdks/sdk/dist/declarations/src/evm/constants/contract-features";
 import {
   Abi,
@@ -619,7 +614,11 @@ export function ensQuery(addressOrEnsName?: string) {
       if (!utils.isAddress(addressOrEnsName) && !isEnsName(addressOrEnsName)) {
         return placeholderData;
       }
-      const ethProvider = getEVMWeb3sdksSDK(process.env.ENS_CHAIN_ID ? parseInt(process.env.ENS_CHAIN_ID) : ChainId.Mainnet).getProvider();
+      const ethProvider = getEVMWeb3sdksSDK(
+        process.env.ENS_CHAIN_ID
+          ? parseInt(process.env.ENS_CHAIN_ID)
+          : ChainId.Mainnet,
+      ).getProvider();
       const ensName = isEnsName(addressOrEnsName)
         ? addressOrEnsName
         : await ethProvider.lookupAddress(addressOrEnsName);

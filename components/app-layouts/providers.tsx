@@ -1,7 +1,7 @@
 import { SolanaProvider } from "./solana-provider";
 import { useDashboardEVMChainId } from "@3rdweb-sdk/react";
 import { useQueryClient } from "@tanstack/react-query";
-import { Web3sdksProvider, WalletConnector } from "@web3sdks/react";
+import { WalletConnector, Web3sdksProvider } from "@web3sdks/react";
 import { GnosisSafeConnector } from "@web3sdks/react/evm/connectors/gnosis-safe";
 import { MagicConnector } from "@web3sdks/react/evm/connectors/magic";
 import { EVM_RPC_URL_MAP, getEVMRPC } from "constants/rpc";

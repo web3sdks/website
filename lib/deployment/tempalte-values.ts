@@ -1,7 +1,4 @@
-import {
-  SUPPORTED_CHAIN_ID,
-  getDefaultTrustedForwarders,
-} from "@web3sdks/sdk";
+import { SUPPORTED_CHAIN_ID, getDefaultTrustedForwarders } from "@web3sdks/sdk";
 import type { SolidityType } from "lib/solidity-types";
 
 interface ReplacementProps {

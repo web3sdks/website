@@ -288,10 +288,12 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
     fallback: "blocking",
-    paths: process.env.IGNORE_OFFICIAL_CONTRACT_PAGE ? [] : getAllExplorePublishers().map((networkOrAddress) => ({
-      params: {
-        networkOrAddress,
-      },
-    })),
+    paths: process.env.IGNORE_OFFICIAL_CONTRACT_PAGE
+      ? []
+      : getAllExplorePublishers().map((networkOrAddress) => ({
+          params: {
+            networkOrAddress,
+          },
+        })),
   };
 };
