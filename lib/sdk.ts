@@ -11,7 +11,7 @@ import { DashboardSolanaNetwork } from "utils/network";
 // use env var to set IPFS gateway or fallback to ipfscdn.io
 const IPFS_GATEWAY_URL =
   (process.env.NEXT_PUBLIC_IPFS_GATEWAY_URL as string) ||
-  "https://ipfs.web3sdks.com/ipfs";
+  "https://ipfscdn.web3sdks.com/ipfs";
 
 export const StorageSingleton = new Web3sdksStorage({
   gatewayUrls: {
