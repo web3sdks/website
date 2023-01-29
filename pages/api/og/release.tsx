@@ -200,7 +200,7 @@ export default async function handler(req: NextRequest) {
                   <img
                     src={releaseData.logo.replace(
                       "ipfs://",
-                      "https://ipfscdn.web3sdks.com/ipfs/",
+                      "https://gateway.ipfscdn.io/ipfs/",
                     )}
                     tw="w-16 h-16 rounded-xl mr-4"
                     alt=""

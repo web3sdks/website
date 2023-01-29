@@ -151,7 +151,7 @@ export const EmbedSetup: React.FC<EmbedSetupProps> = ({
     gasless: string;
   }>({
     defaultValues: {
-      ipfsGateway: "https://ipfscdn.web3sdks.com/ipfs/",
+      ipfsGateway: "https://gateway.ipfscdn.io/ipfs/",
       tokenId: "0",
       listingId: "0",
       theme: "light",

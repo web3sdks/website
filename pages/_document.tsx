@@ -13,7 +13,7 @@ class ConsoleDocument extends Document {
           <link rel="preconnect" href="https://pl.web3sdks.com" />
           <link rel="dns-prefetch" href="https://pl.web3sdks.com" />
           {/* prefetch domains we are likely to use */}
-          <link rel="dns-prefetch" href="https://ipfscdn.web3sdks.com" />
+          <link rel="dns-prefetch" href="https://gateway.ipfscdn.io" />
         </Head>
         <body id="tw-body-root">
           <ColorModeScript
