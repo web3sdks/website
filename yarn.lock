@@ -4354,10 +4354,10 @@
   resolved "https://registry.npmjs.org/@web3sdks/contracts/-/contracts-1.0.1.tgz#2a58fd1be92d1af840aeed0ff727b615aa06701e"
   integrity sha512-VbzmHDndOjX5HxpWQYaanlJKIMQ95u8bI8Kch//NiyzUT0KD86mFCwFf316WXAzcmQjma5y5ZEF/Onv9AOV1bA==
 
-"@web3sdks/react@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.npmjs.org/@web3sdks/react/-/react-0.1.2.tgz#137da8a9e3453e1c25e65bdecb6c802574452f07"
-  integrity sha512-uckkUUTb0QYjo4CnrrQXXN+n4wYX/76XVLQQL8aWjsCMSB8MLYYzizFacentHXXlD9kkYysxR/5qVAeoUtE8yQ==
+"@web3sdks/react@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.npmjs.org/@web3sdks/react/-/react-0.1.3.tgz#90ad650ac6c26b183df8f4d0bb5d3c26109b4f70"
+  integrity sha512-7p8dw6lh+K2aCZzsCoEvJvTdbeNIGhE0r67+oJ2NdZTRU9oBMXQCBzYcclt24nEoTJEAi9fuC5RvkqHLpzuG9g==
   dependencies:
     "@emotion/react" "^11.10.0"
     "@emotion/styled" "^11.10.0"
@@ -4379,10 +4379,10 @@
     tiny-invariant "^1.2.0"
     wagmi "^0.2.28"
 
-"@web3sdks/sdk@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@web3sdks/sdk/-/sdk-1.0.2.tgz#1ed249520565ef5d6948704b13d37deaf35054f3"
-  integrity sha512-S4e9NPJinzEiMwenxgF1Sxwc464DHBd6jPa3XxJFbgQmW5VXXN8juUQE44Mux5H75NpHchwin8HHYT0hCZPkgw==
+"@web3sdks/sdk@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/@web3sdks/sdk/-/sdk-1.0.4.tgz#a0d6ae67f80e7e44530d0d9e622d4971bb10e2e3"
+  integrity sha512-48XW1hq2hqTkrKkY9OyhnJ4sHixXpMy8Rjz/aRT4Do9GnUSuwTrRgBriFg3ASBIGLh8Lh8xYV05DkH1udUujOg==
   dependencies:
     "@metaplex-foundation/js" "^0.17.6"
     "@metaplex-foundation/mpl-token-metadata" "^2.3.3"
@@ -4403,10 +4403,10 @@
     yaml "^2.1.1"
     zod "^3.11.6"
 
-"@web3sdks/storage@*", "@web3sdks/storage@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.npmjs.org/@web3sdks/storage/-/storage-0.1.2.tgz#948df632769ef26ca0e7f1315aa43cc4c37fe518"
-  integrity sha512-32vGZOEECyGdqSh0YbiHMa+jvJCvHIFXNy4yqliTmfPYr+UZnzDT8T6A6vYEos0bnlSNzgII7ijQmIK+7lQKZA==
+"@web3sdks/storage@*", "@web3sdks/storage@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.npmjs.org/@web3sdks/storage/-/storage-0.1.5.tgz#afef4664ab9c45c6a433a72fc5cd580352f667c7"
+  integrity sha512-Vhg7l1kpbG5jt6lYi3/2tnB6U2GgRYtoTBYODwADhfJgo58JjbvmFWP0TztMp2nOZpNUCBQEuRvG39f4JLHGKw==
   dependencies:
     cross-fetch "^3.1.5"
     form-data "^4.0.0"
